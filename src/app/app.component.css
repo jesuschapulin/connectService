@@ -1,0 +1,60 @@
+body {
+  position: relative;
+}
+.title-page {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container-box-filter {
+  width: 100%;
+  text-align: center;
+}
+.box {
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+  margin-right: 5px;
+}
+.select-periodo span {
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+}
+.select-periodo select {
+  display: inline-block;
+  margin: 3px 0;
+}
+.container-options {
+  text-align: center;
+}
+.container-options .select {
+  margin-left: 10px;
+}
+.container-options .select:nth-child(1) {
+  margin-left: 0;
+}
+.container-cards-proy {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.container-cards-proy .card {
+  width: 370px;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.sidebarFilters {
+  background-color: aqua;
+  width: 300px;
+  height: 900px;
+  color: white;
+  position: absolute;
+  top: 0;
+}
+.button-sidebar {
+  width: 10 px;
+  display: inline-block;
+  position: relative;
+  left: 38%;
+  font-size: 25px;
+}
